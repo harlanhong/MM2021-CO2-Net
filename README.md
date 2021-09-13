@@ -1,6 +1,6 @@
 # Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization (ACMM MM 2021)
 
-[Fa-Ting Hong](https://harlanhong.github/io/), [Jia-Chang Peng](kiwi-fung.win), [Dan Xu](https://www.danxurgb.net), [Ying Shan](https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ&hl=zh-CN), and [Wei-Shi Zheng](http://www.isee-ai.cn/~zhwshi/).
+[Fa-Ting Hong](https://harlanhong.github/io/), [Jia-Chang Peng](https://kiwi-fung.win), [Dan Xu](https://www.danxurgb.net), [Ying Shan](https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ&hl=zh-CN), and [Wei-Shi Zheng](http://www.isee-ai.cn/~zhwshi/).
 
 
 <img src='./misc/framework.pdf' width=800>
