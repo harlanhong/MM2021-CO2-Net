@@ -1,0 +1,12 @@
+*.npy
+*.pkl
+*.bootes
+*.sakura
+*.crux
+*.bon
+*.pyc
+*.pdf
+*.jpg
+*.png
+logs
+ckpt
