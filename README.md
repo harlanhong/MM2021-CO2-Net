@@ -43,7 +43,7 @@ python main.py --max-seqlen 320 --lr 0.00005 --k 7 --dataset-name Thumos14reduce
 ## Citation
 
 ```
-@InProceedings{zhou2021pose,
+@InProceedings{hong2021cross,
 author = {Hong, Fa-Ting and Feng, Jia-Chang and Xu, Dan and Shan, Ying and Zheng, Wei-Shi},
 title = {Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization},
 booktitle = {ACM International Conference on Multimedia (ACM MM)},
