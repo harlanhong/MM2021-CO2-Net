@@ -10,7 +10,6 @@ parser.add_argument('--feature-size', default=2048, help='size of feature (defau
 parser.add_argument('--num-class', type=int,default=20, help='number of classes (default: )')
 parser.add_argument('--dataset-name', default='Thumos14reduced', help='dataset to train on (default: )')
 parser.add_argument('--max-seqlen', type=int, default=500, help='maximum sequence length during training (default: 750)')
-parser.add_argument('--Lambda', type=float, default=0.5, help='weight on Co-Activity Loss (default: 0.5)')
 parser.add_argument('--num-similar', default=3, type=int,help='number of similar pairs in a batch of data  (default: 3)')
 parser.add_argument('--seed', type=int, default=1, help='random seed (default: 1)')
 parser.add_argument('--max-iter', type=int, default=100000, help='maximum iteration to train (default: 50000)')
@@ -52,6 +51,3 @@ parser.add_argument('--alpha4',type=float,default=1)
 
 parser.add_argument("--AWM", type=str, default='BWA_fusion_dropout_feat_v2')
 
-
-# new loss balance
-parser.add_argument('--gamma',type=float,default=0.5)
