@@ -38,8 +38,6 @@ parser.add_argument('--reduce_ratio',type=int,default=16)
 # for pooling kernel size calculate
 parser.add_argument('--t',type=int,default=5)
 
-#----------------hamnet--------------------
-parser.add_argument('--factor',type=float,default=1)
 
 
 #-------------loss weight---------------
