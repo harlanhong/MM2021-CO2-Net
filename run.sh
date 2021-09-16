@@ -10,7 +10,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --dataset-name  --num-class 20 Thumos14red
 CUDA_VISIBLE_DEVICES=0 python main.py --k 5  --dataset-name ActivityNet1.2 --path-dataset path/to/ActivityNet1.2 --num-class 100 --use-model ANT_CO2  --dataset AntSampleDataset --lr 3e-5 --max-seqlen 60 --model-name ANT_CO2_3552 --seed 3552 --max-iter 22000
 
 # AcitivityNet1.2 Testing
-CUDA_VISIBLE_DEVICES=0 python main.py --dataset-name ActivityNet1.2 --dataset AntSampleDataset --num-class 100 --path-dataset path/to/ActivityNet1.2 --use-model ANT_CO2 --model-name ANT_CO2_3552 
+CUDA_VISIBLE_DEVICES=0 python main.py --dataset-name ActivityNet1.2 --dataset AntSampleDataset --num-class 100 --path-dataset path/to/ActivityNet1.2 --use-model ANT_CO2 --model-name ANT_CO2_3552 --max-seqlen 60
 
 
 
