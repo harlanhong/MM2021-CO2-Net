@@ -35,16 +35,7 @@ parser.add_argument("--topk2", type=float, default=10)
 parser.add_argument("--dis", type=float, default=3, help="distance thres")
 parser.add_argument("--topk", type=float, default=60)
 
-parser.add_argument("--drop_thres", type=float, default=0.2)
 
-parser.add_argument("--r_act", type=float, default=9)
-parser.add_argument("--r_bkg", type=float, default=4)
-
-# for proposal generate
-parser.add_argument('--threshold',type=float,default=0.5)
-
-# for focal loss
-parser.add_argument('--alpha',type=float,default=0.25)
 parser.add_argument('--dropout_ratio',type=float,default=0.7)
 parser.add_argument('--reduce_ratio',type=int,default=16)
 parser.add_argument('--branch_num',type=int,default=4)
@@ -64,10 +55,6 @@ parser.add_argument('--alpha4',type=float,default=1)
 
 parser.add_argument("--AWM", type=str, default='BWA_fusion_dropout_feat_v2')
 
-parser.add_argument("--resultsName", type=str, default='')
-
-parser.add_argument('--ema-decay', default=0.999, type=float, metavar='ALPHA',
-                        help='ema variable decay rate (default: 0.999)')
 
 # new loss balance
 parser.add_argument('--gamma',type=float,default=0.5)
