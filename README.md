@@ -32,7 +32,7 @@ python test.py --use-model CO2 --model-name CO2
 
 
 ## Prepare DataSet
-The features for Thumos14 and ActivityNet1.2 dataset can be downloaded [here](https://emailucr-my.sharepoint.com/personal/sujoy_paul_email_ucr_edu/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsujoy%5Fpaul%5Femail%5Fucr%5Fedu%2FDocuments%2Fwtalc%2Dfeatures&originalPath=aHR0cHM6Ly9lbWFpbHVjci1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC9zdWpveV9wYXVsX2VtYWlsX3Vjcl9lZHUvRXMxemJIUVk0UHhLaFVrZGd2V0h0VTBCSy1feXVnYVNqWEs4NGtXc0IwWEQwdz9ydGltZT1vaUg4LU54MDJVZw). The annotations are included with this package.
+The features for Thumos14 and ActivityNet1.2 dataset can be downloaded [here](https://rpi.app.box.com/s/hf6djlgs7vnl7a2oamjt0vkrig42pwho). The annotations are included with this package.
 
 ## Train Your Own Model
 * Run the train scripts:
