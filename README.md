@@ -1,6 +1,6 @@
 # Cross-modal Consensus Network for Weakly Supervised Temporal Action Localization (ACMM MM 2021)
 
-[Fa-Ting Hong](https://harlanhong.github/io/), [Jia-Chang Feng](https://kiwi-fung.win), [Dan Xu](https://www.danxurgb.net), [Ying Shan](https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ&hl=zh-CN), and [Wei-Shi Zheng](http://www.isee-ai.cn/~zhwshi/).
+[Fa-Ting Hong](https://harlanhong.github/io/)*, [Jia-Chang Feng](https://kiwi-fung.win)*, [Dan Xu](https://www.danxurgb.net), [Ying Shan](https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ&hl=zh-CN), and [Wei-Shi Zheng](http://www.isee-ai.cn/~zhwshi/). `*Equation Contribution`
 
 
 <img src='./misc/framework.pdf' width=800>
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 * Run the test scripts:
 ``` bash
-python test.py --use-model CO2 --model-name CO2
+python test.py --dataset-name Thumos14reduced --num-class 20  --path-dataset path/to/Thumos14  --use-model CO2 --model-name CO2_3552
 ```
 
 
