@@ -13,6 +13,12 @@ which introduces two identical proposed cross-modal consensus modules (CCM) that
 
 
 ## Requirements
+* Create the anaconda environment as what we used.
+
+```
+conda env create -f environment.yaml
+```
+
 * Python 3.6 and [Pytorch](https://pytorch.org/) 1.3.0 are used. Basic requirements are listed in the 'requirements.txt'.
 
 ```
