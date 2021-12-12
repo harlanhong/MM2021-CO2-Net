@@ -1,10 +1,10 @@
 import numpy as np
-import numpy as np
 from collections import defaultdict
 import matplotlib.pyplot as plt
 import torch
 import torch.nn as nn
 from scipy.interpolate import interp1d
+
 def sigmoid_rampup(current, rampup_length):
     """Exponential rampup from https://arxiv.org/abs/1610.02242"""
     if rampup_length == 0:
