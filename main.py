@@ -2,22 +2,20 @@ from __future__ import print_function
 import argparse
 import os
 import torch
-# from model import Model
 import model
 import multiprocessing as mp
 import wsad_dataset
-import pdb
+
 import random
-# from video_dataset import Dataset,ANTDataset
 from test import test
 from train import train
 from tensorboard_logger import Logger
-# from utils import Recorder as Logger
 import options
 import numpy as np
 from torch.optim import lr_scheduler
 from tqdm import tqdm
 import shutil
+
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 def setup_seed(seed):
    random.seed(seed)
