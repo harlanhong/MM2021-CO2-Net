@@ -10,7 +10,6 @@ from eval.eval_detection import ANETdetection
 import wsad_dataset
 from eval.detectionMAP import getDetectionMAP as dmAP
 import scipy.io as sio
-import pdb
 from tensorboard_logger import Logger
 import multiprocessing as mp
 import options
@@ -18,6 +17,8 @@ import model
 import proposal_methods as PM
 import pandas as pd
 from collections import defaultdict
+import os
+
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 @torch.no_grad()
 def test(itr, dataset, args, model, logger, device,pool):
@@ -65,7 +66,10 @@ def test(itr, dataset, args, model, logger, device,pool):
         instance_logits_stack.append(tmp)
         # element_logits_stack.append(logits)
         labels_stack.append(labels)
-    np.save('temp/{}.npy'.format(args.resultsName),results)
+
+    if not os.path.exists('temp'):
+        os.mkdir('temp')
+    np.save('temp/{}.npy'.format(args.model_name),results)
     # np.save('temp/logits_wo_attn.npy',logits_dict)
 
     instance_logits_stack = np.array(instance_logits_stack)
