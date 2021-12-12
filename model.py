@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-
+import model
 import torch.nn.init as torch_init
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 import utils.wsad_utils as utils
@@ -55,7 +55,7 @@ class CO2(torch.nn.Module):
         mid_dim=1024
         dropout_ratio=args['opt'].dropout_ratio
         reduce_ratio=args['opt'].reduce_ratio
-        self.branch_num=args['opt'].branch_num
+
         self.vAttn = getattr(model,args['opt'].AWM)(1024,args)
         self.fAttn = getattr(model,args['opt'].AWM)(1024,args)
 
@@ -226,7 +226,7 @@ class ANT_CO2(torch.nn.Module):
         mid_dim=1024
         dropout_ratio=args['opt'].dropout_ratio
         reduce_ratio=args['opt'].reduce_ratio
-        self.branch_num=args['opt'].branch_num
+
         self.vAttn = getattr(model,args['opt'].AWM)(1024,args)
         self.fAttn = getattr(model,args['opt'].AWM)(1024,args)
 
