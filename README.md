@@ -2,6 +2,10 @@
 
 [Fa-Ting Hong](https://harlanhong.github/io/)^, [Jia-Chang Feng](https://kiwi-fung.win)^ [Dan Xu](https://www.danxurgb.net), [Ying Shan](https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ&hl=zh-CN), and [Wei-Shi Zheng](http://www.isee-ai.cn/~zhwshi/). `^Equation Contribution`
 
+<object data='./misc/framework.pdf' type='application/pdf' width='800px'>
+  <embed src='./misc/framework.pdf'>
+    <p> This browser does not support PDFS. Please visit the PDF in :<a href='./misc/framework.pdf'></p>
+  </embed>
 
 <img src='./misc/framework.pdf' width=800>
 
