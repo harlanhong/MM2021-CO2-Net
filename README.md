@@ -42,7 +42,7 @@ The features for Thumos14 and ActivityNet1.2 dataset can be downloaded [here](ht
 ## Train Your Own Model
 * Run the train scripts:
 ``` bash
-python main.py --max-seqlen 320 --lr 0.00005 --k 7 --dataset-name Thumos14reduced --num-class 20 --use-model CO2  --max-iter 20000  --dataset SampleDataset --weight_decay 0.001 --model-name CO2 --seed 3552 --AWM BWA_fusion_dropout_feat_v2
+python main.py --max-seqlen 500 --lr 0.00005 --k 7 --dataset-name Thumos14reduced --num-class 20 --use-model CO2  --max-iter 20000  --dataset SampleDataset --weight_decay 0.001 --model-name CO2 --seed 3552 --AWM BWA_fusion_dropout_feat_v2
 ```
 
 ## Citation
