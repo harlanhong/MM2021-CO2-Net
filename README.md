@@ -2,7 +2,7 @@
 
 [Fa-Ting Hong](https://harlanhong.github/io/)^, [Jia-Chang Feng](https://kiwi-fung.win)^ [Dan Xu](https://www.danxurgb.net), [Ying Shan](https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ&hl=zh-CN), and [Wei-Shi Zheng](http://www.isee-ai.cn/~zhwshi/). `^Equation Contribution`
 
-<img src='./misc/framework.jpg' width=800>
+<img src='./misc/framework.png' width=800>
 
 ### [Project](https://harlanhong.github.io//publication/co2net) | [Paper](https://arxiv.org/abs/2107.12589) 
 
