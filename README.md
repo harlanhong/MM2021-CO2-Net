@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 * Run the test scripts:
 ``` bash
-python main.py --max-seqlen 320 --lr 0.00005 --k 7 --dataset-name Thumos14reduced --path-dataset path/to/Thumos14 --num-class 20 --use-model CO2  --max-iter 5000  --dataset SampleDataset --weight_decay 0.001 --model-name CO2_3552 --seed 3552 --AWM BWA_fusion_dropout_feat_v2
+python main.py --max-seqlen 500 --lr 0.00005 --k 7 --dataset-name Thumos14reduced --path-dataset path/to/Thumos14 --num-class 20 --use-model CO2  --max-iter 5000  --dataset SampleDataset --weight_decay 0.001 --model-name CO2_3552 --seed 3552 --AWM BWA_fusion_dropout_feat_v2
 ```
 
 
